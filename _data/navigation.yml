@@ -50,3 +50,10 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+# Sidebar Navigation
+docs-en:
+  - title: Probability and Statistics
+    children:
+      - title: Random Experiment, Sample Space, and Event
+        url:  2024/06/22/introductioninps.html
