@@ -28,6 +28,10 @@ if for every number $\epsilon>0$ there is a number $\delta>0$ such that if $0 < 
 
 This means that for every $x$ within a range of $\delta$ from $a$ but not equal to $a$, the corresponding $f(x)$ values lie within a range of $\epsilon$ from $L$. In other words, $\epsilon$ and $\delta$ serve to mathematically define how close $x$ must be to $a$ in order for $f(x)$ to be as close as desired to $L$.
 
-![image-20240622224746945](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20240622224746945.png)
+<p align="center">
+  <img width="600" src="https://raw.githubusercontent.com/sori2/sori2.github.io/master/png/pdl1.png">
+  <br>
+  Figure 1. An illustration of the epsilon-delta definition of a limit.
+</p>
 
 To put it more precisely, if any small interval $(L-\epsilon, L+\epsilon)$ is given around $L$, then we can find an interval $(a-\delta, a+\delta)$ around a such that $f$ maps all the points in  $(a-\delta, a+\delta)$, except possibly $a$ itself, into the interval $(L-\epsilon, L+\epsilon)$.
