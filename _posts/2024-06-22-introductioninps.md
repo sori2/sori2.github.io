@@ -47,8 +47,7 @@ $$E=\{2,4,6\}$$
 
 In this case, $E$ is a subset of $S$. If the die lands on 2, 4, or 6, the event $E$ occurs.
 
-
 # Reference
 
 * Ross, S. (2010). A First Course in Probability (8th ed.). Pearson.
-* https://static.scientificamerican.com/sciam/cache/file/5DC7AECC-6B6A-489E-A11618E62DC7BC4F_source.jpg?w=1200
+* https://www.scientificamerican.com/article/what-are-the-chances/

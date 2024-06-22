@@ -57,3 +57,5 @@ docs-en:
     children:
       - title: Random Experiment, Sample Space, and Event
         url:  2024/06/22/introductioninps.html
+      - title: Basic Set Theory
+        url:  2024/06/22/basic_set_theory.html
