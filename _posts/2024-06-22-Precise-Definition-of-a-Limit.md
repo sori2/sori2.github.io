@@ -33,5 +33,9 @@ This means that for every $x$ within a range of $\delta$ from $a$ but not equal 
   <br>
   Figure 1. An illustration of the epsilon-delta definition of a limit.
 </p>
-
 To put it more precisely, if any small interval $(L-\epsilon, L+\epsilon)$ is given around $L$, then we can find an interval $(a-\delta, a+\delta)$ around a such that $f$ maps all the points in  $(a-\delta, a+\delta)$, except possibly $a$ itself, into the interval $(L-\epsilon, L+\epsilon)$.
+
+
+
+1. ![image from imgur.com](https://i.imgur.com/VJtlHBD.jpg)
+2. 
