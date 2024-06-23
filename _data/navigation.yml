@@ -61,3 +61,11 @@ docs-en:
         url:  2024/06/22/basic_set_theory.html
       - title: Axoim of Probability
         url:  2024/06/22/axiomsofp.html
+  - title: Linear Algebra
+    children:
+      - title: Systems of Linear Equations
+        url:  2024/06/23/systems-of-linear-equations.html
+  - title: Calculus
+    children:
+      - title: Precise Definition of a Limit
+        url:  2024/06/22/precise-definition-of-a-limit.html

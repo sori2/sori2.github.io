@@ -7,7 +7,6 @@ aside:
 key: 2024062204_en
 tags: Calculus
 lang: en
-
 ---
 
 # Limits of Function
@@ -21,21 +20,31 @@ So, how can we express "arbitrarily close" in a mathematically precise and rigor
 
 
 # ($\epsilon,\delta$)-definition of Limit
+Let $f(x)$ be a function defined on some open interval that contains the number $a$, except possibly at $a$ itself. We say that the limit of $f(x)$ as $x$ approaches $a$ is $L$, and we write $\lim_{x \to a} f(x) = L$ if for every number $\epsilon > 0$ there is a number $\delta > 0$ such that if $0 < |x - a| < \delta$, then $|f(x) - L| < \epsilon$.
 
- Let $f(x)$ be a function defined on some open interval that contains the number $a$, expect possibly at $a$ itself. Then we say that the limit of $f(x)$ as $x$ approaches $a$ is $L$, and we write
-$$\lim_{x \rightarrow a} f(x) = L$$
-if for every number $\epsilon>0$ there is a number $\delta>0$ such that if $0 < |x-a| < \delta$ and $|f(x) - L| < \epsilon$.
-
-This means that for every $x$ within a range of $\delta$ from $a$ but not equal to $a$, the corresponding $f(x)$ values lie within a range of $\epsilon$ from $L$. In other words, $\epsilon$ and $\delta$ serve to mathematically define how close $x$ must be to $a$ in order for $f(x)$ to be as close as desired to $L$.
+This means that for every $x$ within a range of $\delta$ from $a$ but not equal to $a$, the corresponding $f(x)$ values lie within a range of $\epsilon$ from $L$. In other words, $\epsilon$ and $\delta$ serve to mathematically define how close $x$ must be to $a$ for $f(x)$ to be as close as desired to $L$.
 
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/sori2/sori2.github.io/master/png/pdl1.png">
+  <img width="800" src="https://raw.githubusercontent.com/sori2/sori2.github.io/master/png/pdl1.png">
   <br>
   Figure 1. An illustration of the epsilon-delta definition of a limit.
 </p>
+
 To put it more precisely, if any small interval $(L-\epsilon, L+\epsilon)$ is given around $L$, then we can find an interval $(a-\delta, a+\delta)$ around a such that $f$ maps all the points in  $(a-\delta, a+\delta)$, except possibly $a$ itself, into the interval $(L-\epsilon, L+\epsilon)$.
 
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/sori2/sori2.github.io/master/png/pdl2.png">
+  <br>
+  Figure 2. Geometric interpretation of limits can be given in terms of the graph of a
+function.
+</p>
 
 
-1. ![image from imgur.com](https://i.imgur.com/VJtlHBD.jpg)
-2. 
+
+One important point to note is that the epsilon-delta method is not a tool for finding the limit value $L$. Instead, it is a proof technique used to rigorously verify that $L$ is indeed the limit value, assuming we already know $L$. The goal of the epsilon-delta method is as follows: given any arbitrary $\epsilon$, no matter how small, we must find a $\delta$ that satisfies the definition of the epsilon-delta method. The $\delta$ is dependent on $\epsilon$, meaning that it is a function of $\epsilon$.
+
+
+
+# Reference
+
+* Stewart, J. (2018). *Calculus: Early Transcendentals*.

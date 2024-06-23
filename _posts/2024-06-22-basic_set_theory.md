@@ -74,7 +74,7 @@ Consider 6-sided die and 4-sided die and $A$ be an event that you roll $2$. What
 
 The complement of $A$ is:
 
-$$A^{'} = \{1,3,4,5,6\}$$
+$$A' = \{1,3,4,5,6\}$$
 
 This represents the outcomes where a $2$ is not rolled.
 
