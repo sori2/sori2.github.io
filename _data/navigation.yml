@@ -61,6 +61,13 @@ docs-en:
         url:  2024/06/22/basic_set_theory.html
       - title: Axoim of Probability
         url:  2024/06/22/axiomsofp.html
+      - title: Exponential Distribution
+        url:  2024/06/26/exponential_distribution.html
+      - title: Gamma Distribution
+        url:  2024/06/27/gamma_distribution.html
+      - title: Chi-Square Distribution
+        url:  2024/06/27/chi-square-distribution.html
+        
   - title: Linear Algebra
     children:
       - title: Systems of Linear Equations

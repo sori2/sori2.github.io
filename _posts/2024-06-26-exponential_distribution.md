@@ -17,14 +17,17 @@ Let $X_1$ be the waiting time until the **first** customer arrives at the bank. 
 
 Since the waiting time is nonnegative the cdf of $X_1$ is $F(t)=0$ when $t<=0$, where $t$ is an waiting time. Given $t>0$,
 
-$$\begin{align*}
+$$
+\begin{align*}
 F(t) &= P(\text{waiting time is less than } t) = P(X_1 \leq t) = 1 - P(X_1 > t) \\
 &= 1 - P(\text{there is no event until } t)
-\end{align*}$$
+\end{align*}
+$$
 
-Define $N(t)$ be the number of customers coming at the bank in an interval of length $t$. Then $N(t) ∼ Poisson(λt)$ and Equation $(1)$ becomes 
+Define $N(t)$ be the number of customers coming at the bank in an interval of length $t$. Then $N(t) ∼ Poisson(λt)$ and $F(t)$ becomes 
 
-$$\begin{align*}
+$$
+\begin{align*}
 &= 1-P(N(t)=0) \\
 &= 1 - e^{-\lambda t}.
 \end{align*}
@@ -32,14 +35,15 @@ $$
 
 Therefore, the waiting time for the first customer has CDF  $1 - e^{-\lambda t}$. Then the probability density function of $X_1$ is 
 
-$$f(t) = 
+$$
+f(t) = 
 \begin{cases} 
 \lambda e^{-\lambda t} & \text{if } t > 0 \\
 0 & \text{otherwise}
-\end{cases}$$
+\end{cases}
+$$
 
-The **expected waiting time** until the first customer is 
-
+The **expected waiting time** until the first customer is
 
 $$
 \begin{align*}
@@ -58,7 +62,9 @@ $$
 
 The continuous random variable $X$ follows an exponential distribution if its probability density function is: 
 
-$$f_X(x)=\lambda e^{-\lambda x}$$
+$$
+f_X(x)=\lambda e^{-\lambda x}
+$$
 
 for $\lambda>0$ and $x\ge0$. We denote $X ∼ Exp(λ)$.
 
@@ -70,15 +76,21 @@ Let $X ∼ Exp(λ)$.
 
 - The **mean** is  
 
-  $$\mu_X = E(X) = \frac{1}{\lambda}$$
+  $$
+  \mu_X = E(X) = \frac{1}{\lambda}
+  $$
 
 - The **variance** is 
 
-  $$\sigma^2 = \operatorname{Var}(X) = \frac{1}{\lambda^2}$$
+  $$
+  \sigma^2 = \operatorname{Var}(X) = \frac{1}{\lambda^2}
+  $$
 
 - The **moment generating function is** 
 
-  $$M(t)=\frac{\lambda}{\lambda-t}$$
+  $$
+  M(t)=\frac{\lambda}{\lambda-t}
+  $$
 
   for $t < \lambda$.
 
@@ -88,17 +100,19 @@ Let $X ∼ Exp(λ)$.
 
 Let $X$ have an exponential distribution with mean $μ = 1/λ$. Then the **cdf** of X is:
 
-$$F_X(x) = 
+$$
+F_X(x) = 
 \begin{cases} 
-1- e^{-\lambda x}, & \text{for } 0 \le x < \infty \\
-0, & \text{for } -\infty < x < 0
-\end{cases}$$
-
-
+1- e^{-\lambda x} & \text{for } 0 \le x < \infty \\
+0 & \text{for } -\infty < x < 0
+    \end{cases}
+$$
 
 - When $X ∼ Exp(λ)$,
 
-  $$P(X>x)=1-F_X(x)=1-(1-e^{-\lambda x})=e^{-\lambda x}$$
+  $$
+  P(X>x)=1-F_X(x)=1-(1-e^{-\lambda x})=e^{-\lambda x}
+  $$
 
   when $x>0.$
 
@@ -108,6 +122,8 @@ $$F_X(x) =
 
 One of the most interesting properties of the exponential distribution is its memoryless property, which states that for $X ∼ Exp(λ)$.
 
-$$P(X ≥ t + t_0 \mid X ≥ t_0)=P(X≥t).$$
+$$
+P(X ≥ t + t_0 \mid X ≥ t_0)=P(X≥t).
+$$
 
 This means that the probability of waiting at least an additional $t$ units of time, given that $t_0$ units of time have already passed, is the same as the probability of waiting $t$ units of time from the start.

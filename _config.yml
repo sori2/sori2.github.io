@@ -85,7 +85,7 @@ toc:
 ##############################
 ## Mathjax
 mathjax: true # false (default), true
-mathjax_autoNumber: true # false (default), true
+mathjax_autoNumber: false # false (default), true
 
 ## Mermaid
 mermaid: # false (default), true
@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
