@@ -5,7 +5,7 @@ sidebar:
 aside:
   toc: true
 key: 2024062301_en
-tags: LinearAlgebra
+tags: Linear_Algebra
 lang: en
 ---
 
