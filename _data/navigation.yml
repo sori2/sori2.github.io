@@ -78,3 +78,5 @@ docs-en:
     children:
       - title: Precise Definition of a Limit
         url:  2024/06/22/precise-definition-of-a-limit.html
+      - title: L’Hôpital’s Rule
+        url:  2024/06/28/lhopitals_rule.html
