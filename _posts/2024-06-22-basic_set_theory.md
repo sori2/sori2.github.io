@@ -34,13 +34,15 @@ Consider two events in a 6-sided die roll:
 
 The intersection of $A$ and $B$ is:
 
-$$A∩B=\{4,6\}$$
+$$
+A∩B=\{4,6\}
+$$
 
 This represents the outcomes that are both even and greater than 3.
 
 ## Union
 
-The **union of events** $A$ and $B$, denoted $A ∪ B$, is the collection of all outcomes that are elements of one or the other of the sets $A$ and $B$, or of both of them. It corresponds to combining descriptions of the two events using the word “or.” $C = A ∪ B$
+The **union of events** $A$ and $B$, denoted $A ∪ B$, is the collection of all outcomes that are elements of one or the other of the sets $A$ and $B$, or of both of them. It corresponds to combining descriptions of the two events using the word “**or.**” $C = A ∪ B$
 
 
 
@@ -53,7 +55,9 @@ Consider the same events from the previous example:
 
 The union of $A$ and $B$ is:
 
-$$A∪B=\{2,4,5,6\}$$
+$$
+A∪B=\{2,4,5,6\}
+$$
 
 This represents the outcomes that are either even, greater than $3$, or both.
 
@@ -61,20 +65,22 @@ This represents the outcomes that are either even, greater than $3$, or both.
 
 ## Complements
 
-The **complement of an event** $A$ in a sample space $S$, denoted $A'$ (or $A^C$), is the collection of all outcomes in $S$ that are not elements of the set $A$, It corresponds to negating any description in words of the event $A$.
+The **complement of an event** $A$ in a sample space $S$, denoted $A^{\prime}$ (or $A^\complement$), is the collection of all outcomes in $S$ that are not elements of the set $A$, It corresponds to negating any description in words of the event $A$.
 
 
 
 ### Example
 
-Consider 6-sided die and 4-sided die and $A$ be an event that you roll $2$. What is $A'$?
+Consider 6-sided die and 4-sided die and $A$ be an event that you roll $2$. What is $A^{\prime}$?
 
 - Sample space: $S = \\{1, 2, 3, 4, 5, 6\\}$.
 - Event $A$: Rolling a 2, $A = \\{2\\}$.
 
 The complement of $A$ is:
 
-$$A' = \{1,3,4,5,6\}$$
+$$
+A^{\prime} = \{1,3,4,5,6\}
+$$
 
 This represents the outcomes where a $2$ is not rolled.
 
@@ -84,7 +90,9 @@ This represents the outcomes where a $2$ is not rolled.
 
 For two sets $A$ and $B$, the **difference** (or **relative complement**) of $A$ and $B$, denoted $A \setminus B$, is the set of all elements that are in $A$ but not in $B$. Formally,
 
-$$A\setminus B = A\cap B'$$
+$$
+A\setminus B = A\cap B^{\prime}
+$$
 
  
 
@@ -92,11 +100,13 @@ $$A\setminus B = A\cap B'$$
 
 Events $A$ and $B$ are **mutually exclusive** if they have no elements in common. i.e.,
 
-$$A\cap B = \emptyset$$
+$$
+A\cap B = \emptyset
+$$
 
 $\emptyset$ is the notation of the empty set, $\emptyset = \\{\\}$.
 
-- for any event $A$, $A$ and $A'$ are mutually exclusive.
+- for any event $A$, $A$ and $A^{\prime}$ are mutually exclusive.
 
 ### Example
 
@@ -108,47 +118,55 @@ Consider to toss a coin once. Let $A$ be an event that the coin lands on heads a
 
 ### Commutative Laws
 
-$$\begin{align}
+$$
+\begin{align}
 
 A\cup B=B\cup A \\
 
 A\cap B = B\cap A
 
-\end{align}$$
+\end{align}
+$$
 
 ### Associative Laws
 
-$$\begin{align}
+$$
+\begin{align}
 
 (A ∪ B) ∪ C = A ∪ (B ∪ C) \\
 
 (A ∩ B) ∩ C = A ∩ (B ∩ C)
 
-\end{align}$$
+\end{align}
+$$
 
 
 
 ### Distributive Laws
 
-$$\begin{align}
+$$
+\begin{align}
 
 A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) \\
 
 A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
 
-\end{align}$$
+\end{align}
+$$
 
 
 
 ### De Morgan's Laws
 
-$$\begin{align}
+$$
+\begin{align}
 
-(A ∪ B)' = A' ∩ B' \\
+(A ∪ B)^{\prime} = A^{\prime} ∩ B^{\prime} \\
 
-(A ∩ B)' = A' ∪ B'
+(A ∩ B)^{\prime} = A^{\prime} ∪ B^{\prime}
 
-\end{align}$$
+\end{align}
+$$
 
 # Reference
 

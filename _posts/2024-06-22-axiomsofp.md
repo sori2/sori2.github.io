@@ -40,20 +40,20 @@ These axioms serve as the foundation for probability theory, allowing us to mode
 # Properties of Probability
 Let $S$ be a sample space. Let $A$, $B$, and $C$ be subsets of $S$. Then the following properties hold:
 
-1. $P(A) = 1 - P(A^{'})$
+1. $P(A) = 1 - P(A^{\prime})$
 
    **Proof:** Using the axiomatic definition of probability:  
-   Since $S = A \cup A^{'}$ and $A \cap A^{'} = \emptyset$,  
+   Since $S = A \cup A^{\prime}$ and $A \cap A^{\prime} = \emptyset$,  
    by property 2, $P(S) = 1$.  
-   Thus, $P(S) = P(A \cup A^{'}) = P(A) + P(A^{'})$.  
+   Thus, $P(S) = P(A \cup A^{\prime}) = P(A) + P(A^{'})$.  
    By property 3, this can be expressed as the sum of the two probabilities.
 
 2. $P(\emptyset) = 0$
 
    **Proof:** Using property 1 of probability. Let the event $A$ be the empty set,  
    $A = \emptyset \rightarrow A^{'} = S$.  
-   Then, $P(A) = 1 - P(A^{'}) = 1 - 1 = 0$.  
-   By property 2 of the axiomatic definition of probability, $P(A^{'}) = P(S) = 1$.
+   Then, $P(A) = 1 - P(A^{\prime}) = 1 - 1 = 0$.  
+   By property 2 of the axiomatic definition of probability, $P(A^{\prime}) = P(S) = 1$.
 
 3. If $A \subseteq B$, then $P(A) \leq P(B)$
 

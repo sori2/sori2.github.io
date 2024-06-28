@@ -50,9 +50,9 @@ Since $\Gamma(1) = 1$, we can write $0! = 1$. The Gamma function is sometimes re
 
 
 
-# Gamma Distributions
+# Gamma Distribution
 
-## Gamma Distributions
+## Gamma Distribution
 
 A continuous random variable $X$ follows a **gamma distribution** with parameters $\alpha>0$ and $\beta > 0$ if its probability density function is: 
 
@@ -104,8 +104,8 @@ Now,
 
 $$
 \begin{aligned}
-{M_X}'(t) &= (-\alpha)(1-\beta t)^{-\alpha-1}(-\beta) \\
-{M_X}''(t) &= (-\alpha)(\alpha-1)(1-\beta t)^{-\alpha-2}(-\beta)^2
+{M_X}^\prime(t) &= (-\alpha)(1-\beta t)^{-\alpha-1}(-\beta) \\
+{M_X}^{\prime\prime}(t) &= (-\alpha)(\alpha-1)(1-\beta t)^{-\alpha-2}(-\beta)^2
 \end{aligned}
 $$
 
@@ -113,8 +113,8 @@ Therefore, we obtain the following from the gamma distribution.
 
 $$
 \begin{aligned}
-\mu={M_X}'(0) &= \alpha\beta \\
-\sigma^2 ={M_X}''(0)-{M_X}'(0) &= \alpha\beta^2
+\mu={M_X}^{\prime}(0) &= \alpha\beta \\
+\sigma^2 ={M_X}^{\prime\prime}(0)-{M_X}^{\prime}(0) &= \alpha\beta^2
 \end{aligned}
 $$
 
