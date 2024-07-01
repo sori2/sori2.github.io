@@ -61,6 +61,12 @@ docs-en:
         url:  2024/06/22/basic_set_theory.html
       - title: Axoim of Probability
         url:  2024/06/22/axiomsofp.html
+      - title: Conditional Probability
+        url:  2024/06/30/conditional_probability.html
+      - title: Independence
+        url:  2024/06/30/independence.html
+      - title: Bayes' Theorem
+        url:  2024/06/30/bayes_theorem.html
       - title: Exponential Distribution
         url:  2024/06/26/exponential_distribution.html
       - title: Gamma Distribution
@@ -69,6 +75,7 @@ docs-en:
         url:  2024/06/27/chi-square-distribution.html
       - title: Beta Distribution
         url:  2024/06/28/beta_distribution.html
+      
         
   - title: Linear Algebra
     children:

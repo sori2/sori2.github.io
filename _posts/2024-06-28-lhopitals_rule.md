@@ -61,7 +61,7 @@ $$
 The auxiliary functions $F$ and $G$ help extend $f(x)$ and $g(x)$ to be continuous at $c$, making the application of the Cauchy's Mean Value Theorem more straightforward.
 {:.info}
 
-Since $f$ is continuous on $\{x \in I \mid x \neq c\}$, we can see that the function $F$ is continuous on the interval $I$.
+Since $f$ is continuous on $\\{x \in I \mid x \neq c\\}$, we can see that the function $F$ is continuous on the interval $I$.
 $$
 \lim_{x\to c}F(x)=\lim_{x\to c}f(x)=0=F(c)
 $$
