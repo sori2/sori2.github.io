@@ -19,19 +19,23 @@ where $b$ and the **coefficients** $a_1, \ldots, a_n$ are real or complex number
 
 A **system of linear equations** consists of a collection of one or more linear equations involving the same set of variables. For example, a system of $m$ linear equations in $n$ variables can be written as: 
 
-$$\begin{aligned}
+$$
+\begin{aligned}
     a_{11}x_{1} + a_{12}x_{2} + \cdots + a_{1n}x_{n} &= b_{1} \\
     a_{21}x_{1} + a_{22}x_{2} + \cdots + a_{2n}x_{n} &= b_{2} \\
     &\vdots \\
     a_{m1}x_{1} + a_{m2}x_{2} + \cdots + a_{mn}x_{n} &= b_{m}
-\end{aligned}$$ 
+\end{aligned}
+$$ 
 
 For example,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 	x_1 - 2x_2 &= -1 \\
 	-x_1 + 3x_2 &= 3
-\end{aligned}$$ 
+\end{aligned}
+$$ 
 
 A system of linear equations has
 
@@ -53,7 +57,8 @@ A system of linear equations is said to be **consistent** if it has either one s
 
 Such a system can be represented in matrix form as $A \mathbf{x} = \mathbf{b}$, where $A$ is an $m \times n$ matrix of coefficients, $\mathbf{x}$ is a column vector of the variables, and $\mathbf{b}$ is a column vector of the constants:
 
-$$A = \begin{pmatrix}
+$$
+A = \begin{pmatrix}
 a_{11} & a_{12} & \cdots & a_{1n} \\
 a_{21} & a_{22} & \cdots & a_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
@@ -70,7 +75,8 @@ b_1 \\
 b_2 \\
 \vdots \\
 b_m
-\end{pmatrix}$$
+\end{pmatrix}
+$$
 
 The solution to a system of linear equations is the set of all possible values of the variables that satisfy all of the equations simultaneously. This can be achieved using various methods such as Gaussian elimination, matrix inversion, or iterative methods.
 
