@@ -1,13 +1,12 @@
 ---
-title: Basic Set Theory
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062202_en
-tags: Probability
-lang: en
+title: "Basic Set Theory"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
+
 
 # What is a set?
 
@@ -168,6 +167,6 @@ $$
 \end{align}
 $$
 
-# Reference
+# References
 
-* Ross, S. (2010). A First Course in Probability (8th ed.). Pearson.
+* Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.

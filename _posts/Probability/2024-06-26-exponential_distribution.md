@@ -1,12 +1,10 @@
 ---
-title: Exponential Distribution
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062601_en
-tags: Probability
-lang: en
+title: "Exponential Distribution"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Relationship to Poisson Process
@@ -56,9 +54,9 @@ E(X_1) &= \int_{-\infty}^{\infty} x f(x) \, dx \\
 \end{align*}
 $$
 
-# Exponential Distributions
+# Exponential Distribution
 
-## Exponential Distributions
+## Exponential Distribution
 
 The continuous random variable $X$ follows an exponential distribution if its probability density function is: 
 
@@ -127,3 +125,7 @@ P(X ≥ t + t_0 \mid X ≥ t_0)=P(X≥t).
 $$
 
 This means that the probability of waiting at least an additional $t$ units of time, given that $t_0$ units of time have already passed, is the same as the probability of waiting $t$ units of time from the start.
+
+# References
+
+* Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.

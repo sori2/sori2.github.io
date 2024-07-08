@@ -5,7 +5,6 @@ tag: [Machine_Learning]
 toc: true
 toc_sticky: true
 author_profile: true
-
 ---
 
 # Naive Bayes Classifier
@@ -66,7 +65,7 @@ $$
 
 Here, $h_{nb}(\mathbf{x})$ represents the class with the highest probability using the Naive Bayes classifier for the given feature vector $\mathbf{x}$.
 
-# Reference
+# References
 
-* Murty, M. N., & Devi, V. S. (2011). *Pattern Recognition: an Algorithmic approach*. Springer , Universities Press.
+- Murty, M. N., & Devi, V. S. (2011). *Pattern Recognition: an Algorithmic approach*. Springer , Universities Press.
 - Zhou, Z. (2021). *Machine learning*. Springer Nature.

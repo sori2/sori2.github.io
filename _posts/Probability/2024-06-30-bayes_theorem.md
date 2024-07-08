@@ -1,12 +1,10 @@
 ---
-title: Bayes' Theorem
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024063002_en
-tags: Probability
-lang: en
+title: "Bayes' Theorem"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Law of Total Probability

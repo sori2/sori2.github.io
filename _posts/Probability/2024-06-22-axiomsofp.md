@@ -1,12 +1,10 @@
 ---
-title: Axiom of Probability
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062203_en
-tags: Probability
-lang: en
+title: "Axiom of Probability"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Axiom of Probability
@@ -87,3 +85,7 @@ Let $S$ be a sample space. Let $A$, $B$, and $C$ be subsets of $S$. Then the fol
    Thus,
    
    $$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
+   
+# References
+
+* Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.

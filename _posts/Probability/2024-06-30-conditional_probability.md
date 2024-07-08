@@ -1,12 +1,10 @@
 ---
-title: Conditional Probability
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024063001_en
-tags: Probability
-lang: en
+title: "Conditional Probability"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Conditional Probability
@@ -85,7 +83,7 @@ $$
 P(A_1 \cap A_2 \cap \cdots \cap A_k) = P(A_1) \cdot \frac{P(A_1 \cap A_2)}{P(A_1)} \cdot \frac{P(A_1 \cap A_2 \cap A_3)}{P(A_1 \cap A_2)} \cdots \frac{P(A_1 \cap A_2 \cap \cdots \cap A_k)}{P(A_1 \cap A_2 \cap \cdots \cap A_{k-1})}
 $$
 
-# Reference
+# References
 
 * Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.
 * Hogg, R. V., McKean, J. W., & Craig, A. T. (2020). *Introduction to mathematical statistics*. Pearson. 

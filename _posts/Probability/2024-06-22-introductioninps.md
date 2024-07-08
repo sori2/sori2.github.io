@@ -1,12 +1,10 @@
 ---
-title: Random Experiment, Sample Space, and Event
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062201_en
-tags: Probability
-lang: en
+title: "Random Experiment, Sample Space, and Event"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Introduction to Probability and Statistics
@@ -47,7 +45,7 @@ $$E=\{2,4,6\}$$
 
 In this case, $E$ is a subset of $S$. If the die lands on 2, 4, or 6, the event $E$ occurs.
 
-# Reference
+# References
 
-* Ross, S. (2010). A First Course in Probability (8th ed.). Pearson.
+* Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.
 * https://www.scientificamerican.com/article/what-are-the-chances/

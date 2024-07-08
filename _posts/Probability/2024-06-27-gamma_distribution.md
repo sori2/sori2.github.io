@@ -1,12 +1,10 @@
 ---
-title: Gamma Distribution
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062701_en
-tags: Probability
-lang: en
+title: "Gamma Distribution"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Gamma Function
@@ -48,8 +46,6 @@ $$
 
 Since $\Gamma(1) = 1$, we can write $0! = 1$. The Gamma function is sometimes referred to as the factorial function because of this relationship.
 
-
-
 # Gamma Distribution
 
 ## Gamma Distribution
@@ -78,8 +74,6 @@ $$
 $$
 
 Thus, it is proven that $f_X(x)$ is a valid probability density function (PDF).
-
-
 
 ## Gamma Properties
 
@@ -121,33 +115,32 @@ $$
 Let $X \sim \text{Gamma}(\alpha, \beta)$.
 
 - The **mean** is  
-
+  
   $$
   \mu = E(X) = \alpha\beta
   $$
 
 - The **variance** is 
-
+  
   $$
   \sigma^2 = \operatorname{Var}(X) = \alpha\beta^2
   $$
 
 - The **moment generating function is** 
-
+  
   $$
   M(t)=\frac{1}{(1 - \beta t)^\alpha}
   $$
-
+  
   for $t <1/\beta$.
 
 ## Additive Property of Gamma Distributed Variables
+
 If $X_1, X_2, \ldots, X_n$ follow the distribution $X_i \sim \text{Gamma}(\alpha_i, \beta)$ for $i=1,2,\ldots,n$, then,
 
 $$
 Y = \sum_{i=1}^{n} X_i \sim \text{Gamma}\left(\sum_{i=1}^{n} \alpha_i, \beta\right)
 $$
-
-
 
 The proof is as follows.
 
@@ -159,8 +152,7 @@ $$
 
 This is the mgf of the $\text{Gamma}\left(\sum_{i=1}^{n} \alpha_i, \beta\right)$ distribution.
 
-
-#  Reference
+# References
 
 * Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.
 * Hogg, R. V., McKean, J. W., & Craig, A. T. (2020). *Introduction to mathematical statistics*. Pearson. 

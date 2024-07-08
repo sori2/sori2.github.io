@@ -1,12 +1,10 @@
 ---
-title: Beta Distribution
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062801_en
-tags: Probability
-lang: en
+title: "Beta Distribution"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 # Beta Function

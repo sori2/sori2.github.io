@@ -1,17 +1,15 @@
 ---
-title: Chi-Square Distribution
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
-key: 2024062702_en
-tags: Probability
-lang: en
+title: "Chi-Square Distribution"
+categories: [Probability]
+tag: [Probability]
+toc: true
+toc_sticky: true
+author_profile: true
 ---
 
-# Chi-Square Distributions
+# Chi-Square Distribution
 
-## Chi-Square Distributions
+## Chi-Square Distribution
 
 The Chi-Squared distribution, denoted as $\chi^2(r)$, is a special case of the Gamma distribution with $\alpha = r/2$ and $\beta = 2$. It is widely used in statistics, particularly in hypothesis testing and in constructing confidence intervals.
 
@@ -63,23 +61,23 @@ The basic statistics are as follows.
 Let $X\sim \chi^2(r)$. ($X \sim \text{Gamma}(\alpha=r/2,\ \beta=2)$)
 
 - The **mean** is  
-
+  
   $$
   \mu = E(X) = r
   $$
 
 - The **variance** is 
-
+  
   $$
   \sigma^2 = \operatorname{Var}(X) = 2r
   $$
-  
-- The **moment generating function is** 
 
+- The **moment generating function is** 
+  
   $$
   M(t)=\frac{1}{(1 - 2 t)^{r/2}}
   $$
-
+  
   for $t <1/2$.
 
 ## Additive Property of Chi-Square Distributed Variables
@@ -92,8 +90,7 @@ $$
 Y = \sum_{i=1}^{n} X_i \sim \chi^2(r)\left(\sum_{i=1}^{n} r_i\right)
 $$
 
-
-#  Reference
+# References
 
 * Ross, S. (2010). *A First Course in Probability (8th ed.)*. Pearson.
 * Hogg, R. V., McKean, J. W., & Craig, A. T. (2020). *Introduction to mathematical statistics*. Pearson. 
