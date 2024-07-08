@@ -1,12 +1,35 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  #- title: "Quick-Start Guide"
+  # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Posts"
+    url: /posts/
+  - title: "Search"
+    url: /search/
+
+
+#docs:
+#  - title: Math
+#    children:
+#      - title: "Probability"
+#        url: "Probability/"
+#        category: "Probability"
+#      - title: "Calculus"
+#        url: "Calculus/"
+#        category: "Calculus"
+#  - title: AI
+#    children:
+#      - title: "Machine Learning"
+#        url: "Machine_Learning/"
+#        category: "Machine_Learning"
+counts:
+  - title: "total"
+    use: true
+  - title: "태그"
+    use: false

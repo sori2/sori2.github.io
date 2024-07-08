@@ -1,14 +1,11 @@
 ---
-published: true
-title: "[Machine Learning] Naive Bayes Classifier"
-date: 2024-07-01
-last_modified_at: 2024-07-01T14:02:00
+title: "Naive Bayes Classifier"
+categories: [Machine_Learning]
+tag: [Machine_Learning]
 toc: true
 toc_sticky: true
-categories:
-  - Machine Learning
-tags:
-  - Machine_Learning
+author_profile: true
+
 ---
 
 # Naive Bayes Classifier
