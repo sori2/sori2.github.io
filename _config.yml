@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "OOPARTS"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Sori"
+name                     : "nero"
 description              : "An amazing website."
 url                      : "https://sori2.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -45,8 +45,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "alcol7"
+  name             : "nero"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Momentum in Work"
   location         : "South Korea"
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/sori2/sori2
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -227,7 +227,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
@@ -332,6 +332,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
+      related: false
 
 
 date_format: "%Y-%m-%d"

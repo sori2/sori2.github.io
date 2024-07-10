@@ -7,7 +7,6 @@ toc_sticky: true
 author_profile: true
 ---
 
-
 # What is a set?
 
 A **set** is a fundamental concept in mathematics, representing a collection of **distinct objects**, considered as an object in its own right. This means that $\\{1, 2, 3\\}$ is a set, but $\\{2, 2, 3\\}$ is not because $2$ appears twice in the second collection.
@@ -21,8 +20,6 @@ The order and repetition of elements in a set do not matter; only the inclusion 
 ## Intersection
 
 The **intersection of events** $A$ and $B$, denoted $A ∩ B$, is the collection of all outcomes that are elements of both of the sets $A$ and $B$. It corresponds to combining descriptions of the two events using the word “**and.**” Let $C = A ∩ B$.
-
-
 
 ### Example
 
@@ -43,8 +40,6 @@ This represents the outcomes that are both even and greater than 3.
 
 The **union of events** $A$ and $B$, denoted $A ∪ B$, is the collection of all outcomes that are elements of one or the other of the sets $A$ and $B$, or of both of them. It corresponds to combining descriptions of the two events using the word “**or.**” $C = A ∪ B$
 
-
-
 ### Example
 
 Consider the same events from the previous example:
@@ -60,13 +55,9 @@ $$
 
 This represents the outcomes that are either even, greater than $3$, or both.
 
-
-
 ## Complements
 
 The **complement of an event** $A$ in a sample space $S$, denoted $A^{\prime}$ (or $A^\complement$), is the collection of all outcomes in $S$ that are not elements of the set $A$, It corresponds to negating any description in words of the event $A$.
-
-
 
 ### Example
 
@@ -83,8 +74,6 @@ $$
 
 This represents the outcomes where a $2$ is not rolled.
 
-
-
 ## Subtraction
 
 For two sets $A$ and $B$, the **difference** (or **relative complement**) of $A$ and $B$, denoted $A \setminus B$, is the set of all elements that are in $A$ but not in $B$. Formally,
@@ -92,8 +81,6 @@ For two sets $A$ and $B$, the **difference** (or **relative complement**) of $A$
 $$
 A\setminus B = A\cap B^{\prime}
 $$
-
- 
 
 ## Mutually Exclusive Events
 
@@ -110,8 +97,6 @@ $\emptyset$ is the notation of the empty set, $\emptyset = \\{\\}$.
 ### Example
 
 Consider to toss a coin once. Let $A$ be an event that the coin lands on heads and $B$ be an event that the coin lands on tails. It is clear that the two events $A$ and $B$ cannot occur at the same time. In other words, $A ∩ B = ∅$. $A$ and $B$ **are mutually exclusive.**
-
-
 
 ## Properties of Set Operations
 
@@ -139,8 +124,6 @@ $$
 \end{align}
 $$
 
-
-
 ### Distributive Laws
 
 $$
@@ -152,8 +135,6 @@ A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
 
 \end{align}
 $$
-
-
 
 ### De Morgan's Laws
 
